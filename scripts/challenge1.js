@@ -1,11 +1,13 @@
 var mark = {
     'weight':78, //Kilograms
-    'height':1.65 // metres
+    'height':1.65, // metres
+    'age': 35
 }
 
 var john = {
     'weight':88, //kilograms
-    'height':1.65 //metres
+    'height':1.65, //metres
+    'age':23
 }
 
 function calcBMI(person){
