@@ -18,3 +18,5 @@ var marksBMI = calcBMI(mark);
 var johnsBMI = calcBMI(john);
 
 console.log(marksBMI > johnsBMI ? ' Mark has a greater BMI at ' + marksBMI + ' than John at '+ johnsBMI : 'John has a greater BMI at '+ johnsBMI + ' than Mark at  '+marksBMI);
+
+
