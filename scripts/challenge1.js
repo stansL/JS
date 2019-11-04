@@ -1,3 +1,7 @@
+/***
+ *
+ *Calculate BMIs
+ */
 var mark = {
     'weight': 78, //Kilograms
     'height': 1.65, // metres
@@ -15,6 +19,9 @@ function calcBMI(person) {
 }
 
 var marksBMI = calcBMI(mark);
+mark.bmi = marksBMI;
 var johnsBMI = calcBMI(john);
+john.bmi = johnsBMI;
+
 
 console.log(marksBMI > johnsBMI ? ' Mark has a greater BMI at ' + marksBMI + ' than John at ' + johnsBMI : 'John has a greater BMI at ' + johnsBMI + ' than Mark at  ' + marksBMI);
