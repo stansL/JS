@@ -1,6 +1,6 @@
 /**
  * Objects and Properties
- *
+ * Objects and Methods
  *
  */
 
@@ -13,11 +13,15 @@ var john = {
     'dateOfBirth': 1990,
     'family': ['Jane', 'Mark', 'Emilly'],
     'job': 'teacher',
-    'isMarried': false
+    'isMarried': false,
+    'calcAge': function () {
+        return 2019 - this.dateOfBirth;
+    }
 }
 
 
 console.log(john);
+console.log(john.calcAge());
 console.log(john['family']);
 
 
@@ -28,3 +32,8 @@ jane.firstName = 'Jane';
 jane.lastName = 'Donata';
 
 console.log(jane);
+
+
+/**
+ * Objects and Methods
+ */
